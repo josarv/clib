@@ -15,8 +15,8 @@
 
 #else
 
-#include <stdio.h>
 #include <errno.h>
+#include <stdio.h>
 #include <string.h>
 
 #define CHECK(_pointer)                                                  \

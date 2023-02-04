@@ -1,5 +1,5 @@
-#ifndef LIB_DYNAMIC_ARRAY_H
-#define LIB_DYNAMIC_ARRAY_H
+#ifndef DYNAMIC_ARRAY_H
+#define DYNAMIC_ARRAY_H
 
 #ifndef DYNAMIC_ARRAY_malloc
 #define DYNAMIC_ARRAY_malloc malloc
@@ -21,8 +21,8 @@
 #define DYNAMIC_ARRAY_INITIAL_CAPACITY 2
 #endif
 
-#include <stddef.h>
 #include <assert.h>
+#include <stddef.h>
 #include <stdlib.h>
 
 #include "utilities.h"
