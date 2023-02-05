@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.22 FATAL_ERROR)
-project(clib
+project(
+        clib
         VERSION 0.0.1
         DESCRIPTION "Library for the C programming language"
         HOMEPAGE_URL "https://github.com/josarv/clib"
